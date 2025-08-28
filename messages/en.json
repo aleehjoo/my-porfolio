@@ -1,5 +1,7 @@
 {
   "home": {
+    "content": "Testing another value.",
+    "content2": "This is yet anothet test value.",
     "title": "Testing"
   }
 }

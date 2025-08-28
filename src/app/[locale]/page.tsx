@@ -7,6 +7,7 @@ const Page = () => {
         <div>
             <h1>{t('title')}</h1>
             <p>{t('content')}</p>
+            <p>{t('content2')}</p>
         </div>
     )
 }

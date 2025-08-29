@@ -1,13 +1,15 @@
 import { useTranslations } from 'next-intl';
+import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggler";
+
+
 
 const Page = () => {
     const t = useTranslations('home');
 
     return (
-        <div>
-            <h1>{t('title')}</h1>
-            <p>{t('content')}</p>
-            <p>{t('content2')}</p>
+        <div className="flex flex-row justify-between items-center">
+            <h1 suppressHydrationWarning className="text-xl font-thin">{t('title')}</h1>
+            <AnimatedThemeToggler />
         </div>
     )
 }

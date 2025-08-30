@@ -18,6 +18,7 @@ export default function LocaleSwitcher() {
     return (
         <select
             value={locale}
+            className="dropdown-menu"
             onChange={e => switchLocale(e.target.value)}>
             <option value="en">EN</option>
             <option value="de">DE</option>

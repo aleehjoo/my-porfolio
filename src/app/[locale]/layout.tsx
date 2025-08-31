@@ -9,23 +9,26 @@ export function generateStaticParams() {
 }
 
 export default async function RootLayout({
-    children,
-    params
-}: {
+                                             children,
+                                             params
+                                         }: {
     children: React.ReactNode;
     params: Promise<{locale: string}>;
 }) {
     const {locale} = await params;
+
     if (!hasLocale(routing.locales, locale)) {
         notFound();
     }
 
     setRequestLocale(locale);
 
+    const messages = (await import(`../../../messages/${locale}.json`)).default;
+
     return (
         <html lang={locale}>
         <body>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages} locale={locale}>
             {children}
         </NextIntlClientProvider>
         </body>

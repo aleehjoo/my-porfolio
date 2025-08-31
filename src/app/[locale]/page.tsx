@@ -1,25 +1,14 @@
-import { useTranslations } from 'next-intl';
 import { AnimatedThemeToggler } from '@/components/magicui/animated-theme-toggler';
-import { Link } from '../../../i18n/navigation';
-import { setRequestLocale } from 'next-intl/server';
-import { use } from 'react';
 import LocaleSwitcher from "@/app/[locale]/LocaleSwitcher";
+import InfoCard from "@/components/InfoCard";
 
-const Page = ({params}: { params: Promise<{locale: string}>; }) => {
-
-    const { locale } = use(params);
-
-    setRequestLocale(locale);
-
-    const t = useTranslations('home');
+const Page = () => {
 
     return (
-        <div className="flex flex-row gap-20 items-center justify-center">
-            <h1 suppressHydrationWarning className="text-xl font-thin">{t('title')}</h1>
+        <div className="flex flex-col gap-16 items-center justify-center">
             <AnimatedThemeToggler />
-            <Link href="/"></Link>
-
             <LocaleSwitcher />
+            <InfoCard />
         </div>
     )
 }

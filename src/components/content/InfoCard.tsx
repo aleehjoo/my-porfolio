@@ -1,8 +1,13 @@
-import React from 'react'
+import {useTranslations} from "next-intl";
 
 const InfoCard = () => {
+
+    const t = useTranslations('home');
+
     return (
-        <div>InfoCard</div>
+        <div>
+            <p>{t('title')}</p>
+        </div>
     )
 }
 export default InfoCard

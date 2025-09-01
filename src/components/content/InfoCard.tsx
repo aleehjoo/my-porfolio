@@ -6,7 +6,9 @@ const InfoCard = () => {
 
     return (
         <div>
-            <p>{t('title')}</p>
+            <div className="the-shizzle border-2 h-75 w-200 ">
+                <p>{t('title')}</p>
+            </div>
         </div>
     )
 }

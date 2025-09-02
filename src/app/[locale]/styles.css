@@ -8,6 +8,7 @@
     --color-bg-secondary: #1B1B1B;
     --color-bg-tertiary: #2A2A2A;
     --color-text: #ffffff;
+    --color-test-text: #3E4146;
     --font-sans: ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --radius: 0.625rem;
     --background: oklch(1 0 0);
@@ -82,9 +83,10 @@
 }
 
 .dark {
-    --background: #161616;
+    --background: #090909;
     --foreground: oklch(0.985 0 0);
-    --card: oklch(1 0 0); /*(0.205 0 0);*/
+    --color-test-text: #9DA4B1;
+    --card: #222225; /*(0.205 0 0);*/
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.205 0 0);
     --popover-foreground: oklch(0.985 0 0);
@@ -116,7 +118,7 @@
 }
 
 .the-shizzle {
-    border-color: var(--card)
+    border-color: var(--card);
 }
 
 .dropdown-menu {
@@ -127,6 +129,10 @@ background-color: var(--background);
 .dropdown-menu option {
     color: var(--foreground);
     background-color: var(--background);
+}
+
+.color-test-text {
+    color: var(--color-test-text);
 }
 
 

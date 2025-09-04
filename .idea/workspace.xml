@@ -53,7 +53,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMThirdPartyAiProvidersConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Alejandro\\WebstormProjects\\my-portfolio\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -61,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\components\content" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\components" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\app\[locale]" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio" />
-      <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\[locale]" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -107,7 +107,8 @@
       <workItem from="1756626713494" duration="6207000" />
       <workItem from="1756727514712" duration="1813000" />
       <workItem from="1756807684686" duration="4533000" />
-      <workItem from="1756912299470" duration="640000" />
+      <workItem from="1756912299470" duration="1070000" />
+      <workItem from="1756982991546" duration="1610000" />
     </task>
     <servers />
   </component>

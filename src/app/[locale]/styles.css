@@ -121,6 +121,10 @@
     border-color: var(--card);
 }
 
+.sub-text {
+
+}
+
 .dropdown-menu {
 color: var(--foreground);
 background-color: var(--background);

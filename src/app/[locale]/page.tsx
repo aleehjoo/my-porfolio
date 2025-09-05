@@ -6,7 +6,7 @@ import TechStack from "@/components/content/TechStack";
 const Page = () => {
 
     return (
-        <div className="flex flex-col gap-16 items-center justify-center">
+        <div className="flex flex-col gap-16 items-center justify-center px-4">
             <Header />
             <div>
                 <InfoCard />

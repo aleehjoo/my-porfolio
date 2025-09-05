@@ -1,7 +1,7 @@
 {
-  "home": {
-    "content": "Philippinen",
-    "content2": "Dies ist ein weiterer Testwert.",
-    "title": "Alejandro Umila"
+  "infocard": {
+    "description": "Ich bin ein Full-Stack-Entwickler, der moderne Lösungen für Kunden erstellt. Ich verwandle echte Ideen in Realität.",
+    "location": "Philippinen",
+    "name": "Alejandro Umila"
   }
 }

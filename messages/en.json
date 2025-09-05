@@ -1,7 +1,7 @@
 {
-  "home": {
-    "content": "Philippines",
-    "content2": "This is yet anothet test value.",
-    "title": "Alejandro Umila"
+  "infocard": {
+    "description": "I'm a Full-Stack Developer that creates modern solutions for clients. Turning real ideas into reality.",
+    "location": "Philippines",
+    "name": "Alejandro Umila"
   }
 }

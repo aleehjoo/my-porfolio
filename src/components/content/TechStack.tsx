@@ -1,27 +1,17 @@
-import {
-    Braces,
-    Code2,
-    Globe,
-    Server,
-    Boxes,
-    FileCode,
-    Database,
-    Cloud,
-    GitBranch
-} from "lucide-react";
+import { JavaScriptIcon, TypeScriptIcon, ReactIcon, NextJSIcon, NodeJSIcon, ExpressJSIcon, TailwindIcon, MongoDBIcon, FirebaseIcon, SupabaseIcon, GitIcon } from "@/icons";
 
 const techData = [
-    { name: "JavaScript", description: "Dynamic web language", icon: Braces },
-    { name: "TypeScript", description: "JavaScript, but better", icon: FileCode },
-    { name: "React", description: "UI library", icon: Code2 },
-    { name: "Next.js", description: "React on steroids", icon: Globe },
-    { name: "Node.js", description: "Backend runtime", icon: Server },
-    { name: "Express.js", description: "Web framework", icon: Boxes },
-    { name: "Tailwind CSS", description: "Styling made easy", icon: FileCode },
-    { name: "MongoDB", description: "NoSQL database", icon: Database },
-    { name: "Firebase", description: "Google’s dev toolbox", icon: Cloud },
-    { name: "Supabase", description: "Open-source Firebase", icon: Cloud },
-    { name: "Git", description: "Code time machine", icon: GitBranch }
+    { name: "JavaScript", description: "Dynamic web language", icon: JavaScriptIcon },
+    { name: "TypeScript", description: "JavaScript, but better", icon: TypeScriptIcon },
+    { name: "React", description: "UI library", icon: ReactIcon },
+    { name: "Next.js", description: "React on steroids", icon: NextJSIcon },
+    { name: "Node.js", description: "Backend runtime", icon: NodeJSIcon },
+    { name: "Express.js", description: "Web framework", icon: ExpressJSIcon },
+    { name: "Tailwind CSS", description: "Styling made easy", icon: TailwindIcon },
+    { name: "MongoDB", description: "NoSQL database", icon: MongoDBIcon },
+    { name: "Firebase", description: "Google’s dev toolbox", icon: FirebaseIcon },
+    { name: "Supabase", description: "Open-source Firebase", icon: SupabaseIcon },
+    { name: "Git", description: "Version control", icon: GitIcon }
 ];
 
 

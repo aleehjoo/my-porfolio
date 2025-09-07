@@ -1,0 +1,11 @@
+export {default as JavaScriptIcon} from './JavaScriptIcon';
+export {default as TypeScriptIcon} from './TypeScriptIcon';
+export {default as ReactIcon} from './ReactIcon';
+export {default as NodeJSIcon} from './NodeJSIcon';
+export {default as NextJSIcon} from './NextJSIcon';
+export {default as ExpressJSIcon} from './ExpressJSIcon';
+export {default as TailwindIcon} from './TailwindIcon';
+export {default as MongoDBIcon} from './MongoDBIcon';
+export {default as FirebaseIcon} from './FirebaseIcon';
+export {default as SupabaseIcon} from './SupabaseIcon';
+export {default as GitIcon} from './GitIcon';

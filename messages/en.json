@@ -3,5 +3,52 @@
     "description": "I'm a Full-Stack Developer that creates modern solutions for clients, turning your ideas into reality through clean and user-friendly applications.",
     "location": "Philippines",
     "name": "Alejandro Umila"
+  },
+  "techstack": {
+    "title": "My Tech Stack",
+    "expressjs": {
+      "description": "Web framework",
+      "name": "Express.js"
+    },
+    "firebase": {
+      "description": "Google’s dev toolbox",
+      "name": "Firebase"
+    },
+    "git": {
+      "description": "Version control",
+      "name": "Git"
+    },
+    "javascript": {
+      "description": "Dynamic web language",
+      "name": "JavaScript"
+    },
+    "mongodb": {
+      "description": "NoSQL database",
+      "name": "MongoDB"
+    },
+    "nextjs": {
+      "description": "React on steroids",
+      "name": "Next.js"
+    },
+    "nodejs": {
+      "description": "Backend runtime",
+      "name": "Node.js"
+    },
+    "react": {
+      "description": "UI library",
+      "name": "React"
+    },
+    "supabase": {
+      "description": "Open-source Firebase",
+      "name": "Supabase"
+    },
+    "tailwind": {
+      "description": "Styling made easy",
+      "name": "Tailwind CSS"
+    },
+    "typescript": {
+      "description": "JavaScript, but better",
+      "name": "TypeScript"
+    }
   }
 }

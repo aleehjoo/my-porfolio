@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c62bf0e-23da-411b-a8d0-d3440bbe2419" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LocaleSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocaleSwitcher.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/TechStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/TechStack.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +118,8 @@
       <workItem from="1757054856239" duration="10567000" />
       <workItem from="1757122513560" duration="128000" />
       <workItem from="1757124821971" duration="165000" />
-      <workItem from="1757229332914" duration="12252000" />
+      <workItem from="1757229332914" duration="13018000" />
+      <workItem from="1757302796761" duration="1197000" />
     </task>
     <servers />
   </component>

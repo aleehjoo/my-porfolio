@@ -51,9 +51,9 @@ export default function TechStack() {
                         <div
                             key={tech.key}
                             className="
-                group flex flex-col items-start gap-2 p-4 rounded-xl border
-                bg-muted/70 hover:bg-muted transition hover:shadow-md
-              "
+                            group flex flex-col items-start gap-2 p-4 rounded-xl border
+                            bg-muted/70 hover:bg-muted transition hover:shadow-md
+                          "
                             onMouseEnter={() => setHovered(tech.key)}
                             onMouseLeave={() => setHovered(null)}
                         >
@@ -61,7 +61,6 @@ export default function TechStack() {
                                 <Icon
                                     className="w-6 h-6 transition-transform duration-300 group-hover:scale-105"
                                     style={{
-                                        // Grayscale by default; restore color + strong glow on hover
                                         filter: isHovered
                                             ? `drop-shadow(0 0 8px ${glowColor}) drop-shadow(0 0 14px ${glowColor})`
                                             : "grayscale(1) opacity(0.85)",

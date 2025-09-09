@@ -1,4 +1,7 @@
 {
+  "dropdown": {
+    "select": "Pumili ng Wika"
+  },
   "infocard": {
     "description": "Ako ay isang Full-Stack Developer na lumilikha ng mga modernong solusyon para sa mga kliyente, ginagawa realidad ang iyong mga ideya sa pamamagitan ng malinis at madaling gamitin na mga aplikasyon.",
     "location": "Pilipinas",

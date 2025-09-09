@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathname, useRouter } from '../../i18n/navigation';
-import { useLocale } from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -9,12 +9,14 @@ import {
     DropdownMenuLabel,
     DropdownMenuSeparator,
     DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
+import { Globe } from "lucide-react";
 
 export default function LocaleSwitcher() {
     const locale = useLocale();
     const router = useRouter();
     const pathname = usePathname();
+    const t = useTranslations("dropdown")
 
     const switchLocale = (newLocale: string) => {
         if (newLocale !== locale) {
@@ -24,27 +26,16 @@ export default function LocaleSwitcher() {
     };
 
     return (
-        <div>
-        <select
-            value={locale}
-            className="dropdown-menu"
-            onChange={e => switchLocale(e.target.value)}>
-            <option value="en">EN</option>
-            <option value="de">DE</option>
-            <option value="tl">TL</option>
-        </select>
-
             <DropdownMenu>
-                <DropdownMenuTrigger>Language</DropdownMenuTrigger>
+                <DropdownMenuTrigger><Globe size={20.7} strokeWidth={1.5}/></DropdownMenuTrigger>
                 <DropdownMenuContent>
-                    <DropdownMenuLabel>Select Language</DropdownMenuLabel>
+                    <DropdownMenuLabel><span>{t('select')}</span></DropdownMenuLabel>
                     <DropdownMenuSeparator />
-                    <DropdownMenuItem>EN</DropdownMenuItem>
-                    <DropdownMenuItem>DE</DropdownMenuItem>
-                    <DropdownMenuItem>TL</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => switchLocale("en")}>EN</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => switchLocale("de")}>DE</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => switchLocale("tl")}>TL</DropdownMenuItem>
                     <DropdownMenuItem></DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
-        </div>
     );
 }

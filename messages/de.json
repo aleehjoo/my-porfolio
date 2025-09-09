@@ -1,4 +1,7 @@
 {
+  "dropdown": {
+    "select": "Sprache auswählen"
+  },
   "infocard": {
     "description": "Ich bin ein Full-Stack-Entwickler, der moderne Lösungen für Kunden erstellt und Ihre Ideen durch saubere und benutzerfreundliche Anwendungen in die Realität umsetzt.",
     "location": "Philippinen",

@@ -15,6 +15,7 @@ import {
     FirebaseIcon,
     SupabaseIcon,
     GitIcon,
+    ReactRouterIcon,
 } from "@/icons";
 
 const techData = [
@@ -22,6 +23,7 @@ const techData = [
     { key: "typescript", icon: TypeScriptIcon, color: "#3178C6" },
     { key: "react", icon: ReactIcon, color: "#61DAFB" },
     { key: "nextjs", icon: NextJSIcon, color: "#000000" },
+    { key: "react-router", icon: ReactRouterIcon, color: "#D0021B" },
     { key: "nodejs", icon: NodeJSIcon, color: "#83CD29" },
     { key: "expressjs", icon: ExpressJSIcon, color: "#000000" },
     { key: "tailwind", icon: TailwindIcon, color: "#38BDF8" },

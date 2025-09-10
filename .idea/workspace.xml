@@ -9,7 +9,10 @@
       <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LocaleSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocaleSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/TechStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/TechStack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +123,8 @@
       <workItem from="1757124821971" duration="165000" />
       <workItem from="1757229332914" duration="13018000" />
       <workItem from="1757302796761" duration="1359000" />
-      <workItem from="1757416784885" duration="1305000" />
+      <workItem from="1757416784885" duration="1588000" />
+      <workItem from="1757467447332" duration="1287000" />
     </task>
     <servers />
   </component>

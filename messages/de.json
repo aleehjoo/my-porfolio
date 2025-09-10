@@ -7,6 +7,9 @@
     "location": "Philippinen",
     "name": "Alejandro Umila"
   },
+  "projects": {
+    "title": "Meine Projekte"
+  },
   "techstack": {
     "expressjs": {
       "description": "Web-Framework",
@@ -39,6 +42,10 @@
     "react": {
       "description": "UI-Bibliothek",
       "name": "React"
+    },
+    "react-router": {
+      "description": "React, das Routen ermöglicht",
+      "name": "React Router"
     },
     "supabase": {
       "description": "Open-Source Firebase",

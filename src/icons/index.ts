@@ -9,3 +9,4 @@ export {default as MongoDBIcon} from './MongoDBIcon';
 export {default as FirebaseIcon} from './FirebaseIcon';
 export {default as SupabaseIcon} from './SupabaseIcon';
 export {default as GitIcon} from './GitIcon';
+export {default as ReactRouterIcon} from './ReactRouter';

@@ -2,6 +2,7 @@
 import InfoCard from '@/components/content/InfoCard';
 import Header from "@/components/Header";
 import TechStack from "@/components/content/TechStack";
+import Projects from "@/components/content/Projects";
 
 const Page = () => {
 
@@ -11,6 +12,7 @@ const Page = () => {
             <div>
                 <InfoCard />
                 <TechStack />
+                <Projects />
             </div>
         </div>
     )

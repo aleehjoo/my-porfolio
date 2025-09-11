@@ -5,16 +5,23 @@ import TechStack from "@/components/content/TechStack";
 import Projects from "@/components/content/Projects";
 
 const Page = () => {
-
     return (
-        <div className="flex flex-col gap-16 items-center justify-center px-4">
+        <div className="flex flex-col gap-6 px-4">
             <Header />
-            <div>
+
+            <div className="w-full max-w-3xl mx-auto">
                 <InfoCard />
+            </div>
+
+            <div className="w-full max-w-3xl mx-auto">
                 <TechStack />
+            </div>
+
+            <div className="w-full max-w-3xl mx-auto">
                 <Projects />
             </div>
         </div>
-    )
-}
+    );
+};
+
 export default Page

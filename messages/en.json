@@ -8,7 +8,18 @@
     "name": "Alejandro Umila"
   },
   "projects": {
-    "title": "My Projects"
+  "title": "My Projects",
+  "project1": {
+    "title": "Travel Agency Dashboard",
+    "description": "A responsive dashboard for managing travel bookings.",
+    "alt": "Travel Agency Dashboard"
+  },
+  "project2": {
+    "title": "Thrift Shop",
+    "description": "E-commerce platform for secondhand clothing.",
+    "alt": "Thrift Shop"
+  },
+  "button": "View Project"
   },
   "techstack": {
     "expressjs": {

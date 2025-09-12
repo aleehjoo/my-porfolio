@@ -8,8 +8,19 @@
     "name": "Alejandro Umila"
   },
   "projects": {
-    "title": "Meine Projekte"
-  },
+    "title": "Meine Projekte",
+    "project1": {
+      "title": "Reisebüro-Dashboard",
+      "description": "Ein responsives Dashboard zur Verwaltung von Reisebuchungen.",
+      "alt": "Reisebüro-Dashboard"
+    },
+    "project2": {
+      "title": "Secondhand-Shop",
+      "description": "E-Commerce-Plattform für Secondhand-Kleidung.",
+      "alt": "Secondhand-Shop"
+    },
+    "button": "Projekt ansehen"
+},
   "techstack": {
     "expressjs": {
       "description": "Web-Framework",

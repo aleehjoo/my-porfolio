@@ -8,8 +8,19 @@
     "name": "Alejandro Umila"
   },
   "projects": {
-    "title": "Aking Mga Proyekto"
-  },
+    "title": "Aking Mga Proyekto",
+    "project1": {
+      "title": "Dashboard ng Ahensya ng Paglalakbay",
+      "description": "Isang responsive na dashboard para sa pamamahala ng mga booking sa paglalakbay.",
+      "alt": "Dashboard ng Ahensya ng Paglalakbay"
+    },
+    "project2": {
+      "title": "Thrift Shop",
+      "description": "E-commerce platform para sa mga segunda manong damit.",
+      "alt": "Thrift Shop"
+    },
+    "button": "Tingnan ang Proyekto"
+},
   "techstack": {
     "expressjs": {
       "description": "Web framework",

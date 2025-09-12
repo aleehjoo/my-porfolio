@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0c62bf0e-23da-411b-a8d0-d3440bbe2419" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/tl.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/ReactRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ReactRouterIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,8 @@
       <workItem from="1757302796761" duration="1359000" />
       <workItem from="1757416784885" duration="1588000" />
       <workItem from="1757467447332" duration="3006000" />
-      <workItem from="1757595402418" duration="1800000" />
+      <workItem from="1757595402418" duration="2284000" />
+      <workItem from="1757682683034" duration="3433000" />
     </task>
     <servers />
   </component>

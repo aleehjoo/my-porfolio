@@ -71,5 +71,9 @@
       "description": "JavaScript, but better",
       "name": "TypeScript"
     }
+  },
+  "footer": {
+    "text1": "Made with lots of ❤\uFE0F and ☕",
+    "text2": "© 2025 All rights reserved"
   }
 }

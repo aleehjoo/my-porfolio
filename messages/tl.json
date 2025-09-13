@@ -71,5 +71,10 @@
       "description": "JavaScript, pero mas mahusay",
       "name": "TypeScript"
     }
+  },
+  "footer": {
+    "text1": "Ginawa nang may ❤ at maraming ☕",
+    "text2": "© 2025 Lahat ng karapatan ay nakalaan"
   }
+
 }

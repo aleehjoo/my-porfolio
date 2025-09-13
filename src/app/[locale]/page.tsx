@@ -3,6 +3,7 @@ import InfoCard from '@/components/content/InfoCard';
 import Header from "@/components/Header";
 import TechStack from "@/components/content/TechStack";
 import Projects from "@/components/content/Projects";
+import Footer from "@/components/Footer";
 
 const Page = () => {
     return (
@@ -20,6 +21,8 @@ const Page = () => {
             <div className="w-full max-w-3xl mx-auto">
                 <Projects />
             </div>
+
+            <Footer />
         </div>
     );
 };

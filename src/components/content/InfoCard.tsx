@@ -58,14 +58,14 @@ const InfoCard = () => {
                     >
                         <Mail size={22} />
                     </a>
-                    <a
-                        href="https://github.com/aleehjoo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 rounded-md hover:text-gray-900 transition-transform duration-300 hover:scale-125"
-                    >
-                        <Github size={22} />
-                    </a>
+                    {/*<a*/}
+                    {/*    href="https://github.com/aleehjoo"*/}
+                    {/*    target="_blank"*/}
+                    {/*    rel="noopener noreferrer"*/}
+                    {/*    className="p-2 rounded-md hover:text-gray-900 transition-transform duration-300 hover:scale-125"*/}
+                    {/*>*/}
+                    {/*    <Github size={22} />*/}
+                    {/*</a>*/}
                     <a
                         href="https://www.instagram.com/aleehjoo/"
                         target="_blank"

@@ -87,9 +87,9 @@ const Projects = () => {
                                                 key={tech}
                                                 className="flex items-center gap-1 rounded-full bg-white/10 px-3 py-1 text-sm text-white backdrop-blur-sm"
                                             >
-                        <Icon className="w-4 h-4" />
+                                                <Icon className="w-4 h-4" />
                                                 {tech}
-                      </span>
+                                            </span>
                                         );
                                     })}
                                 </div>
@@ -103,13 +103,15 @@ const Projects = () => {
                                         href={project.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        onClick={(e) => e.currentTarget.blur()}
                                         className="inline-flex items-center gap-2 mt-2 rounded-lg bg-primary px-4 py-2 text-primary-foreground shadow-md
-                        opacity-0 translate-y-4 transition-all duration-500 ease-in-out
-                        group-hover:opacity-100 group-hover:translate-y-0 focus:opacity-100 focus:translate-y-0 "
+                                            opacity-0 translate-y-4 transition-all duration-500 ease-in-out
+                                            group-hover:opacity-100 group-hover:translate-y-0 focus:opacity-100 focus:translate-y-0"
                                     >
                                         <span>{t("button")}</span>
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                             strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                                             className="w-4 h-4">
                                             <path d="M7 17L17 7" />
                                             <path d="M7 7h10v10" />
                                         </svg>

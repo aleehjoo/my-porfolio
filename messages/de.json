@@ -73,7 +73,20 @@
     }
   },
   "footer": {
-      "text1": "Mit viel ❤ und ☕ gemacht",
+      "text1": "Mit viel ❤\uFE0F und ☕ gemacht",
       "text2": "© 2025 Alle Rechte vorbehalten"
-    }
- }
+    },
+  "contactform": {
+    "title": "Kontakt aufnehmen",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "close": "Schließen",
+    "sent": "Nachricht gesendet!",
+    "thank-you": "Vielen Dank für deine Nachricht. Ich melde mich bald bei dir.",
+    "error-message": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "sending": "Wird gesendet...",
+    "submit": "Nachricht senden"
+  }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import {AnimatedThemeToggler} from "@/components/magicui/animated-theme-toggler";
-import LocaleSwitcher from "@/components/LocaleSwitcher";
+import LocaleSwitcher from "@/components/ui/LocaleSwitcher";
 
 const Header = () => {
 

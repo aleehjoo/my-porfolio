@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0c62bf0e-23da-411b-a8d0-d3440bbe2419" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LocaleSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/LocaleSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/ContactForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/InfoCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/InfoCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/content/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/Projects.tsx" afterDir="false" />
     </list>
@@ -65,11 +73,11 @@
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\components\ui" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\components\content" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\components" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src\app\[locale]" />
       <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio\src" />
-      <recent name="C:\Users\Alejandro\WebstormProjects\my-portfolio" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -125,7 +133,7 @@
       <workItem from="1757724360121" duration="166000" />
       <workItem from="1757769706832" duration="1910000" />
       <workItem from="1757828634569" duration="1744000" />
-      <workItem from="1757933930304" duration="379000" />
+      <workItem from="1757933930304" duration="6238000" />
     </task>
     <servers />
   </component>

@@ -3,15 +3,16 @@ import {notFound} from 'next/navigation';
 import {routing} from '../../../i18n/routing';
 import "./styles.css";
 import {setRequestLocale} from "next-intl/server";
+import ContactPill from "@/components/ui/ContactPill";
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({locale}));
 }
 
 export default async function RootLayout({
- children,
- params
-}: {
+                                             children,
+                                             params
+                                         }: {
     children: React.ReactNode;
     params: Promise<{locale: string}>;
 }) {
@@ -30,6 +31,7 @@ export default async function RootLayout({
         <body>
         <NextIntlClientProvider messages={messages} locale={locale}>
             {children}
+            <ContactPill />
         </NextIntlClientProvider>
         </body>
         </html>

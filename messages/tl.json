@@ -73,8 +73,20 @@
     }
   },
   "footer": {
-    "text1": "Ginawa nang may ❤ at maraming ☕",
+    "text1": "Ginawa nang may ❤\uFE0F at maraming ☕",
     "text2": "© 2025 Lahat ng karapatan ay nakalaan"
+  },
+  "contactform": {
+    "title": "Makipag-ugnayan",
+    "name": "Pangalan",
+    "email": "Email",
+    "message": "Mensahe",
+    "close": "Isara",
+    "sent": "Naipadala na ang mensahe!",
+    "thank-you": "Salamat sa iyong pakikipag-ugnayan. Magrereply ako sa lalong madaling panahon.",
+    "error-message": "May nangyaring problema. Pakisubukang muli.",
+    "sending": "Ipinapadala...",
+    "submit": "Ipadala ang Mensahe"
   }
 
 }

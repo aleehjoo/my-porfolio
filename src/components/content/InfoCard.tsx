@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import {Github, Instagram, Mail, MapPin} from "lucide-react";
+import {Instagram, Mail, MapPin} from "lucide-react";
 import Image from "next/image";
 
 const InfoCard = () => {
@@ -14,7 +14,6 @@ const InfoCard = () => {
             "
         >
             <div className="flex flex-row flex-wrap items-center justify-between gap-4">
-                {/* Left side: avatar + name/location */}
                 <div className="flex gap-4 items-center flex-shrink-0">
                     <div className="relative w-[75px] h-[75px] rounded-full overflow-hidden flex-shrink-0 group transition-transform duration-300 hover:rotate-6">
                         <div className="relative w-full h-full">
@@ -50,7 +49,6 @@ const InfoCard = () => {
                     </div>
                 </div>
 
-                {/* Right side: icons */}
                 <div className="flex flex-row gap-2 flex-shrink-0">
                     <a
                         href="mailto:alejandroumila2@gmail.com"
@@ -58,14 +56,6 @@ const InfoCard = () => {
                     >
                         <Mail size={22} />
                     </a>
-                    {/*<a*/}
-                    {/*    href="https://github.com/aleehjoo"*/}
-                    {/*    target="_blank"*/}
-                    {/*    rel="noopener noreferrer"*/}
-                    {/*    className="p-2 rounded-md hover:text-gray-900 transition-transform duration-300 hover:scale-125"*/}
-                    {/*>*/}
-                    {/*    <Github size={22} />*/}
-                    {/*</a>*/}
                     <a
                         href="https://www.instagram.com/aleehjoo/"
                         target="_blank"

@@ -106,7 +106,7 @@ const ContactForm = () => {
                             exit={{ scale: 0.8 }}
                             className="bg-white rounded-2xl shadow-2xl p-8 text-center max-w-sm"
                         >
-                            <h3 className="text-xl font-bold mb-2">🎉 {t('sent')}</h3>
+                            <h3 className="text-xl font-bold mb-2 text-foreground dark:text-primary-foreground">{t('sent')}</h3>
                             <p className="text-gray-600 mb-4">
                                 {t('thank-you')}
                             </p>

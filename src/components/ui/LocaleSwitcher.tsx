@@ -28,7 +28,7 @@ export default function LocaleSwitcher() {
     return (
             <DropdownMenu>
                 <DropdownMenuTrigger><Globe size={20.7} strokeWidth={1.5}/></DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent className="z-[100]">
                     <DropdownMenuLabel><span>{t('select')}</span></DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={() => switchLocale("en")}>EN</DropdownMenuItem>

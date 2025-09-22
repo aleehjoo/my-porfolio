@@ -16,7 +16,7 @@ export default function ContactPill() {
 
     return (
         <div
-            className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ${
+            className={`fixed top-6 left-4 md:left-1/2 md:-translate-x-1/2 z-50 transition-all duration-500 ${
                 show ? "opacity-100 scale-100" : "opacity-0 scale-90 pointer-events-none"
             }`}
         >
